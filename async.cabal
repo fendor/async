@@ -69,8 +69,8 @@ library
         other-extensions: Trustworthy
     exposed-modules:     Control.Concurrent.Async
                          Control.Concurrent.Async.Internal
-    build-depends:       base     >= 4.3     && < 4.20,
-                         hashable >= 1.1.2.0 && < 1.5,
+    build-depends:       base     >= 4.3     && < 4.23,
+                         hashable >= 1.1.2.0 && < 1.6,
                          stm      >= 2.2     && < 2.6
 
 test-suite test-async
